@@ -1,0 +1,9 @@
+
+import os
+
+# Navigate to the spark-flink-beam directory
+os.chdir("real-time-data-analysis-with-streamlit-and-kafka/spark-flink-beam")
+
+# Create the .gitkeep file
+with open(".gitkeep", "w") as f:
+    pass
