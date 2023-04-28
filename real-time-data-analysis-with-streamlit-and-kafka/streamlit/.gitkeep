@@ -1,0 +1,6 @@
+python
+import os
+
+if not os.path.exists("real-time-data-analysis-with-streamlit-and-kafka/streamlit/.gitkeep"):
+    with open("real-time-data-analysis-with-streamlit-and-kafka/streamlit/.gitkeep", "w") as f:
+        pass
