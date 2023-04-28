@@ -1,0 +1,9 @@
+python
+import os
+
+# Navigate to the kafka folder
+os.chdir("real-time-data-analysis-with-streamlit-and-kafka/kafka")
+
+# Create the .gitkeep file
+with open(".gitkeep", "w") as f:
+    pass
