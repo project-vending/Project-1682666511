@@ -1,0 +1,9 @@
+
+import os
+
+# Navigate to the data folder
+os.chdir("real-time-data-analysis-with-streamlit-and-kafka/data")
+
+# Create the .gitkeep file
+with open(".gitkeep", mode="w") as f:
+    pass
